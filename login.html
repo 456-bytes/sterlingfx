@@ -1,0 +1,446 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Language" content="en-us">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <title>Sterlingfxtrades</title>
+
+    <!-- links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/flaticon.css" rel="stylesheet" type="text/css">
+   <link rel="icon" href="images/iconz.png" type="image/x-icon">
+
+ <!-- jquery link -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  
+
+  <!-- jquery functions -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('.post').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+                offset: 50
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post1').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated zoomIn', // Class to add to the elements when they are visible
+                offset: 0
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post2').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 50
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post3').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 100
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post4').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 150
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post5').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 200
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post6').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 250
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post7').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 300
+            });
+        });
+        jQuery(document).ready(function () {
+            jQuery('.post8').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
+                offset: 100
+            });
+        });
+        jQuery(document).ready(function () {
+            jQuery('.post9').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
+                offset: 100
+            });
+        });
+    </script>
+    
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollup').fadeIn();
+                } else {
+                    $('.scrollup').fadeOut();
+                }
+            });
+
+            $('.scrollup').click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+
+        });
+    </script>
+
+
+    <!-- 
+    <style>
+        ._3emE9--dark-theme .-S-tR--ff-downloader {
+            background: rgba(30, 30, 30, .93);
+            border: 1px solid rgba(82, 82, 82, .54);
+            box-shadow: 0 4px 7px rgba(30, 30, 30, .55);
+            color: #fff
+        }
+
+        ._3emE9--dark-theme .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn {
+            background: #3d4b52
+        }
+
+        ._3emE9--dark-theme .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn:hover {
+            background: #131415
+        }
+
+        ._3emE9--dark-theme .-S-tR--ff-downloader ._10vpG--footer {
+            background: rgba(30, 30, 30, .93)
+        }
+
+        ._2mDEx--white-theme .-S-tR--ff-downloader {
+            background: #fff;
+            border: 1px solid rgba(82, 82, 82, .54);
+            box-shadow: 0 4px 7px rgba(30, 30, 30, .55);
+            color: #314c75
+        }
+
+        ._2mDEx--white-theme .-S-tR--ff-downloader ._6_Mtt--header {
+            font-weight: 700
+        }
+
+        ._2mDEx--white-theme .-S-tR--ff-downloader ._2dFLA--container ._2bWNS--notice {
+            border: 0;
+            color: rgba(0, 0, 0, .88)
+        }
+
+        ._2mDEx--white-theme .-S-tR--ff-downloader ._10vpG--footer {
+            background: #fff
+        }
+
+        .-S-tR--ff-downloader {
+            display: block;
+            overflow: hidden;
+            position: fixed;
+            bottom: 20px;
+            right: 7.1%;
+            width: 330px;
+            height: 180px;
+            background: rgba(30, 30, 30, .93);
+            border-radius: 2px;
+            color: #fff;
+            z-index: 99999999;
+            border: 1px solid rgba(82, 82, 82, .54);
+            box-shadow: 0 4px 7px rgba(30, 30, 30, .55);
+            transition: .5s
+        }
+
+        .-S-tR--ff-downloader._3M7UQ--minimize {
+            height: 62px
+        }
+
+        .-S-tR--ff-downloader._3M7UQ--minimize .nxuu4--file-info,
+        .-S-tR--ff-downloader._3M7UQ--minimize ._6_Mtt--header {
+            display: none
+        }
+
+        .-S-tR--ff-downloader ._6_Mtt--header {
+            padding: 10px;
+            font-size: 17px;
+            font-family: sans-serif
+        }
+
+        .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn {
+            float: right;
+            background: #f1ecec;
+            height: 20px;
+            width: 20px;
+            text-align: center;
+            padding: 2px;
+            margin-top: -10px;
+            cursor: pointer
+        }
+
+        .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn:hover {
+            background: #e2dede
+        }
+
+        .-S-tR--ff-downloader ._13XQ2--error {
+            color: red;
+            padding: 10px;
+            font-size: 12px;
+            line-height: 19px
+        }
+
+        .-S-tR--ff-downloader ._2dFLA--container {
+            position: relative;
+            height: 100%
+        }
+
+        .-S-tR--ff-downloader ._2dFLA--container .nxuu4--file-info {
+            padding: 6px 15px 0;
+            font-family: sans-serif
+        }
+
+        .-S-tR--ff-downloader ._2dFLA--container .nxuu4--file-info div {
+            margin-bottom: 5px;
+            width: 100%;
+            overflow: hidden
+        }
+
+        .-S-tR--ff-downloader ._2dFLA--container ._2bWNS--notice {
+            margin-top: 21px;
+            font-size: 11px
+        }
+
+        .-S-tR--ff-downloader ._10vpG--footer {
+            width: 100%;
+            bottom: 0;
+            position: absolute;
+            font-weight: 700
+        }
+
+        .-S-tR--ff-downloader ._10vpG--footer ._2V73d--loader {
+            -webkit-animation: n0BD1--rotation 3.5s linear forwards;
+            animation: n0BD1--rotation 3.5s linear forwards;
+            position: absolute;
+            top: -120px;
+            left: calc(50% - 35px);
+            border-radius: 50%;
+            border: 5px solid #fff;
+            border-top-color: #a29bfe;
+            height: 70px;
+            width: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+
+        .-S-tR--ff-downloader ._10vpG--footer ._24wjw--loading-bar {
+            width: 100%;
+            height: 18px;
+            background: #dfe6e9;
+            border-radius: 5px
+        }
+
+        .-S-tR--ff-downloader ._10vpG--footer ._24wjw--loading-bar ._1FVu9--progress-bar {
+            height: 100%;
+            background: #8bc34a;
+            border-radius: 5px
+        }
+
+        .-S-tR--ff-downloader ._10vpG--footer ._2KztS--status {
+            margin-top: 10px
+        }
+
+        .-S-tR--ff-downloader ._10vpG--footer ._2KztS--status ._1XilH--state {
+            float: left;
+            font-size: .9em;
+            letter-spacing: 1pt;
+            text-transform: uppercase;
+            width: 100px;
+            height: 20px;
+            position: relative
+        }
+
+        .-S-tR--ff-downloader ._10vpG--footer ._2KztS--status ._1jiaj--percentage {
+            float: right
+        }
+    </style> -->
+</head>
+
+<body class="loginpagebg animated fadeIn" topmargin="0" style="background-image:url(images/slider.jpg)">
+    <div data-v-7e2550d6="" class="odm_extension image_downloader_wrapper">
+        <!---->
+    </div>
+
+    <center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="">
+            <div class="container">
+                <br> <br> <span class="logoicon"><a href="index.html"><img src="images/logo.png" alt=""></a></span>
+                <br> <br>
+                <div class="loginbox">
+
+
+
+                    <div class="loginblock2ss">
+                        <div class="loginboxtit">Sign In</div>
+
+
+
+                        <script language="javascript">
+                            function checkform() {
+                                if (document.mainform.username.value == '') {
+                                    alert("Please type your username!");
+                                    document.mainform.username.focus();
+                                    return false;
+                                }
+                                if (document.mainform.password.value == '') {
+                                    alert("Please type your password!");
+                                    document.mainform.password.focus();
+                                    return false;
+                                }
+                                return true;
+                            }
+                        </script>
+
+
+                        <div class="container">
+                            <div class="loginsize">
+                                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse"
+                                    bordercolor="#111111" width="100%">
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="forgotbg loginop" width="100%" valign="top">
+                                                <div class="">
+                                                    <form method="post" name="mainform" onsubmit="return checkform()">
+                                                        <input type="hidden" name="form_id"
+                                                            value="16263653554569"><input type="hidden"
+                                                            name="form_token" value="7b7eef228626168551fc1bc56e78c15b">
+                                                        <input type="hidden" name="a" value="do_login">
+                                                        <input type="hidden" name="follow" value="">
+                                                        <input type="hidden" name="follow_id" value="">
+                                                        <center>
+                                                            <table cellspacing="0" cellpadding="2" border="0"
+                                                                width="100%">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="loginborder" colspan="2">
+                                                                            <div class="input-container">
+                                                                                <i class="fa fa-user icon"></i>
+                                                                                <input class="input-field" type="text"
+                                                                                    value="" placeholder="Username"
+                                                                                    name="username">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td class="loginborder" colspan="2">
+                                                                            <div class="input-container">
+                                                                                <i class="fa fa-key icon"></i>
+                                                                                <input class="input-field"
+                                                                                    type="password"
+                                                                                    placeholder="Password"
+                                                                                    name="password">
+                                                                            </div>
+
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td class="loginborder" colspan="2">
+                                                                            <center>
+                                                                                <div class="forgotlinkbg "> <a
+                                                                                        class="forgotlink"
+                                                                                        style="text-decoration: none"
+                                                                                        href="forgotpassword.html"><i
+                                                                                            class="fas fa-unlock-alt"></i>
+                                                                                        Forgot password?</a></div>
+                                                                                <div class="forgotlinkbg "> <a
+                                                                                        class="forgotlink"
+                                                                                        style="text-decoration: none"
+                                                                                        href="createAccount.html"><i
+                                                                                            class="far fa-user"></i>
+                                                                                        Don't have an account?</a></div>
+                                                                            </center>
+
+                                                                            <br>
+                                                                            <center><input type="submit" value="Login"
+                                                                                    class="sbmt loginbtnsize">
+                                                                            </center>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </center>
+
+
+                                                    </form>
+
+                                                </div>
+                                            </td>
+
+
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <br>
+        <center>
+            <span class="ftxt">© Sterlingfxtrades 2021.All rights reserved.</span>
+        </center>
+
+
+    </center>
+     <!-- javascripts -->
+     <script type="text/javascript" src="js/calc.js"></script>
+     <script type="text/javascript" src="js/viewportchecker.js"></script>
+     
+</body>
+
+</html>

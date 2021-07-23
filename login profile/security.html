@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Language" content="en-us">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <title>sterlingfxtrades</title>
+
+         <!-- links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/flaticon.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="images/iconz.png" type="image/x-icon">
+
+             <!-- jquery links -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    
+      <!-- jquery functions -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('.post').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+                offset: 50
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post1').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated zoomIn', // Class to add to the elements when they are visible
+                offset: 0
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post2').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 50
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post3').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 100
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post4').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 150
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post5').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 200
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post6').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 250
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post7').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 300
+            });
+        });
+        jQuery(document).ready(function () {
+            jQuery('.post8').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
+                offset: 100
+            });
+        });
+        jQuery(document).ready(function () {
+            jQuery('.post9').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
+                offset: 100
+            });
+        });
+    </script>
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollup').fadeIn();
+                } else {
+                    $('.scrollup').fadeOut();
+                }
+            });
+
+            $('.scrollup').click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+
+        });
+    </script>
+
+
+
+
+
+
+
+</head>
+
+<body class="pagebg animated fadeIn" topmargin="0">
+    <a class="fpayout" href="/payout.html"><i class="fab fa-btc"></i> Payouts</a>
+    <center>
+
+        <div class="menubar">
+            <div class="topnav" id="myTopnav">
+                <a href="profile.html" class="active"><i class="fas fa-chart-line"></i> Dashoard</a>
+                <a href="/presentation.html"><i class="fas fa-info-circle"></i> About us</a>
+                <a href="/news.html"><i class="far fa-newspaper"></i> News</a>
+                <a href="/faq.html"><i class="far fa-question-circle"></i> Faq</a>
+                <a href="/rules.html"><i class="far fa-file-alt"></i> Rules</a>
+                <a href="/contactus.html"><i class="fas fa-headset"></i> Support</a>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+
+
+        </div>
+
+
+        <div class="logoslider2" style="background-image: url(/images/slider.jpg)">
+
+
+            <div class="logomenu">
+                <div class="container">
+                    <div class="logolb animated zoomIn delay-1s ">
+                        <span class="logoicon"><a href="?a=home"><img src="/images/logo.png" alt="" /></a></span></div>
+
+
+
+
+
+                    <div class="logorb">
+                        <a class="logobtn2 animated bounceInDown" href="profile.html"><i class="fas fa-sign-in-alt"></i>
+                            Profile</a> <a class="logobtn animated bounceInDown slow" href="/index.html"><i
+                                class="far fa-user"></i> Log out</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="logomenubar animated fadeIn delay-1s">
+                <div class="logomenubg ">
+
+                    <div class="logosb animated fadeIn slower">
+                        <div class="lang" style="margin-top:-10px;">
+                            <div id="google_translate_element" style=""></div>
+                            <script>
+                                function googleTranslateElementInit() {
+                                    new google.translate.TranslateElement({
+                                        pageLanguage: 'en'
+                                    }, 'google_translate_element');
+                                }
+                            </script>
+                            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+                            </script>
+                        </div>
+                    </div>
+
+                    <nav class="nav right">
+                        <ul>
+
+
+                            <span class="navhomeinv">
+                                <li class="current"><a href="profile.html">dashboard</a></li>
+                            </span>
+                            <li><a href="/presentation.html">About us</a></li>
+                            <li><a href="/faq.html">faq</a></li>
+                            <li><a href="/rules.html">Rules</a></li>
+                            <li><a href="/rateus.html">Rate us</a></li>
+                            <li><a href="/news.html">News</a></li>
+                            <li><a href="/contactus.html">Contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <script>
+            $(function () {
+                function getUrl(currency) {
+                    return "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,BCH,ETH,LTC,DASH,DOGE&tsyms=USD";
+                }
+
+                function updateRate() {
+                    $.get(getUrl("BTC"), function (data) {
+                        $("#btc_rate").text(data.BTC.USD);
+                        //$("#bitcoin_circle").text(data.USD);
+                    });
+                    $.get(getUrl("ETH"), function (data, status) {
+                        $("#eth_rate").text(data.ETH.USD);
+                    });
+                    $.get(getUrl("LTC"), function (data, status) {
+                        $("#ltc_rate").text(data.LTC.USD);
+                    });
+                    $.get(getUrl("BCH"), function (data, status) {
+                        $("#bch_rate").text(data.BCH.USD);
+                    });
+                    $.get(getUrl("DASH"), function (data, status) {
+                        $("#dash_rate").text(data.DASH.USD);
+                    });
+                    $.get(getUrl("DOGE"), function (data, status) {
+                        $("#doge_rate").text(data.DOGE.USD);
+                    });
+                    var total_deposit = '3.5906124999999998';
+                    /* total_deposit += parseFloat($("#eth_rate").text()) * parseFloat($("#ethereum_circle").text());
+                      total_deposit += parseFloat($("#ltc_rate").text()) * parseFloat($("#lite_circle").text());*/
+
+                    $("#deposits_circle").text(total_deposit);
+
+                }
+                updateRate();
+                setInterval(updateRate, 1000);
+
+            });
+        </script>
+
+
+        <br><br>
+
+        <div class="pagebg1" style="background-image: url(/images/bankbg.jpg)">
+
+            <div class="logobar">
+                <div class="pagetit">Security <span class="hometxtcolor">Setting</span></div>
+            </div>
+
+            <div class="logopage">
+                <div class="container">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse"
+                        bordercolor="#111111" width="100%">
+                        <tr>
+                            <td class="block6" valign="top">
+                                <div class="menubox">
+                                    <div class="leftuser">
+                                        <i class="fas fa-bars"></i> Control Panel
+                                    </div>
+
+                                    <div class="leftvis1">
+                                        <table border="0" cellpadding="0" cellspacing="0"
+                                            style="border-collapse: collapse" bordercolor="#111111" width="100%"
+                                            id="AutoNumber1">
+
+                                            <tr>
+                                                <td width="100%" class="leftbtnp"> <a class="leftbtn"
+                                                        href="profile.html" style="text-decoration: none"><i
+                                                            class="fas fa-chart-line"></i>
+                                                        Dashboard</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" class="leftbtnp">
+                                                    <a class="leftbtn" href="makedeposit.html"
+                                                        style="text-decoration: none"><i class="fab fa-btc"></i> Make
+                                                        Invest</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" class="leftbtnp">
+                                                    <a class="leftbtn" href="depositlist.html"
+                                                        style="text-decoration: none"><i class="fas fa-landmark"></i> My
+                                                        Investments</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" class="leftbtnp">
+                                                    <a class="leftbtn" href="withdraw.html"
+                                                        style="text-decoration: none"><i class="fab fa-bitcoin"></i>
+                                                        Withdraw Funds</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" class="leftbtnp">
+                                                    <a class="leftbtn" href="earnings.html"
+                                                        style="text-decoration: none"><i
+                                                            class="far fa-calendar-alt"></i> Earning History</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" class="leftbtnp">
+                                                    <a class="leftbtn" href="earnings.html"
+                                                        style="text-decoration: none"><i
+                                                            class="far fa-calendar-alt"></i> Deposit History</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" class="leftbtnp">
+                                                    <a class="leftbtn" href="earnings.html"
+                                                        style="text-decoration: none"><i
+                                                            class="far fa-calendar-alt"></i> Withdraw History</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="leftbtnp"><a class="leftbtn" href="referral.html"
+                                                        style="text-decoration: none"><i class="fas fa-users"></i> My
+                                                        Referral</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" class="leftbtnp"><a class="leftbtn" href="banners.html"
+                                                        style="text-decoration: none"><i class="fas fa-link"></i>
+                                                        Affiliate Banners</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="leftbtnp"><a class="leftbtn" href="security.html"
+                                                        style="text-decoration: none"><i class="fas fa-shield-alt"></i>
+                                                        Security Setting</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="leftbtnp"><a class="leftbtn" href="editaccount.html"
+                                                        style="text-decoration: none"><i class="far fa-user"></i> Edit
+                                                        Profile</a></td>
+                                            </tr>
+
+                                        </table>
+                                    </div>
+
+                                    <div class="leftvis2">
+                                        <div class="dropdown">
+                                            <button class="dropbtn"><i class="fas fa-bars"></i> Memeber Area
+                                                Menu</button>
+                                            <div class="dropdown-content">
+                                                <a href="profile.html"><i class="fas fa-chart-line"></i> Dashboard</a>
+                                                <a href="makedeposit.html"><i class="fab fa-btc"></i> Make Invest</a>
+                                                <a href="depositlist.html"><i class="fas fa-landmark"></i> My
+                                                    Investments</a>
+                                                <a href="withdraw.html"><i class="fab fa-bitcoin"></i> Withdraw
+                                                    Funds</a>
+                                                <a href="earnings.html"><i class="fas fa-history"></i> Earning
+                                                    History</a>
+                                                <a href="makedeposit.html_history"><i class="fas fa-history"></i>
+                                                    Deposit
+                                                    History</a>
+                                                <a href="earnings.html"><i class="fas fa-history"></i> Withdraw
+                                                    History</a>
+                                                <a href="referral.html"><i class="fas fa-users"></i> My Referral</a>
+                                                <a href="banners.tml"><i class="fas fa-link"></i> Affiliate
+                                                    Banners</a>
+                                                <a href="security.html"><i class="fas fa-shield-alt"></i> Security
+                                                    Setting</a>
+                                                <a href="editaccount.html"><i class="far fa-user"></i> Edit Profile</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+                            </td>
+                            <td class="block7" valign="top">
+                                <table cellspacing=0 cellpadding=0 border=0 width=100%>
+
+
+                                    <div class="acctop">
+                                        <div class="acctopleft">
+                                            <div class="acctopico"><i class="far fa-user"></i> <span
+                                                    class="acctopuser"></span></div>
+                                        </div>
+                                        <div class="acctopright">
+                                            <a class="sbmt2" href="makedeposit.html">Deposit</a>
+                                        </div>
+                                    </div>
+                                    <br>
+
+                                    <br>
+
+                                    <div class="acctit"><i class="fas fa-shield-alt"></i> General <span
+                                            class="accwel">Settings</span></div>
+                                    <br>
+                                    <div class="accbgn">
+
+                                        <form method=post><input type="hidden" name="form_id"
+                                                value="16266144549783"><input type="hidden" name="form_token"
+                                                value="00400e87ad0c905d414990435a866772">
+                                            <input type=hidden name=a value="security">
+                                            <input type=hidden name=action value="save">
+                                            Detect IP Address Change Sensitivity<br>
+                                            <input type=radio name=ip value=disabled checked>Disabled<br>
+                                            <input type=radio name=ip value=medium>Medium<br>
+                                            <input type=radio name=ip value=high>High<br>
+                                            <input type=radio name=ip value=always>Paranoic<br><br>
+
+                                            Detect Browser Change<br>
+                                            <input type=radio name=browser value=disabled checked>Disabled<br>
+                                            <input type=radio name=browser value=enabled>Enabled<br><br>
+                                            <input type=submit value="Set" class=sbmt>
+                                        </form>
+
+
+                                    </div>
+                                    <br>
+
+
+
+                                    <br>
+
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br><br>
+                </table>
+            </div>
+        </div>
+        </div>
+        </div>
+        <center>
+
+
+
+            <div class="fcontent" style="background-image:url(/images/howbgico.png),url(/images/bg-image1v2.jpg);">
+
+
+                <br>
+
+                <div class="container" align="center">
+
+
+                    <div class="footerblock">
+                        <a href="?a=home"><img class="imgblock" src="/images/logo.png"></a>
+                        <br>
+                        <div class="fbltxt">sterlingfxtrades represents a low-risk, high-return investment for all
+                            comers - novice investors and professional players in the financial market.</div>
+
+                    </div>
+
+                    <div class="footerblock">
+                        <div class="ftit">Navigation</div>
+                        <br>
+                        <a class="flink" href="?a=home"><i class="fas fa-caret-right"></i> home</a>
+                        <a class="flink" href="/presentation.html"><i class="fas fa-caret-right"></i> About us</a>
+
+                        <a class="flink" href="/login.html"><i class="fas fa-caret-right"></i> Login</a>
+                        <a class="flink" href="/createAccount.html"><i class="fas fa-caret-right"></i> Sign up</a>
+                        <a class="flink" href="/rateus.html"><i class="fas fa-caret-right"></i> Rate us</a>
+                        <a class="flink" href="/rules.html"><i class="fas fa-caret-right"></i> Rules</a>
+                        <a class="flink" href="/faq.html"><i class="fas fa-caret-right"></i> FAQ</a>
+                        <a class="flink" href="/contactus.html"><i class="fas fa-caret-right"></i> Support</a>
+                    </div>
+
+                    <div class="footerblock">
+                        <div class="ftit">OUR Company</div>
+                        <br>
+                       
+                        <div class="fbltxt"><i class="far fa-envelope"></i> Support@sterlingfxtrades</div>
+                        <div class="fbltxt"><i class="fas fa-map-marker-alt"></i> 26 Morris Road, London, England, E14
+                            6NX</div>
+                        <br>
+
+                    </div>
+
+
+
+
+                    <br><br>
+
+
+                </div>
+
+
+
+
+                <div class="footercp">
+                    <div class="container" align="center"><span class="ftxt">&#169; sterlingfxtrades 2020-2021. All
+                            rights reserved. </span></div>
+                </div>
+
+            </div>
+
+
+            <a href="#" class="scrollup"><i class="far fa-arrow-alt-circle-up"></i></a>
+            <a name="footer"></a>
+
+
+        </center>
+
+          <!-- javascript -->
+        <script type="text/javascript" src="/js/text.js"></script>
+        <script type="text/javascript" src="/js/tinybox.js"></script>
+        <script type="text/javascript" src="/js/calc.js"></script>
+        <script type="text/javascript" src="/js/viewportchecker.js"></script>
+        <script src="//code.tidio.co/gbkqnenktbwqzs7wrltm7msbxqurksfn.js" async></script>
+
+</body>
+
+</html>

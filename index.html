@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Language" content="en-us">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+
+
+    <title>sterlingfxtrades</title>
+    <!-- links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/flaticon.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="images/iconz.png" type="image/x-icon">
+
+     <!--jquery link -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    
+
+    <!-- jquery -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('.post').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+                offset: 50
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post1').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated zoomIn', // Class to add to the elements when they are visible
+                offset: 0
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post2').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 50
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post3').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 100
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post4').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 150
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post5').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 200
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post6').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 250
+            });
+        });
+
+        jQuery(document).ready(function () {
+            jQuery('.post7').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceIn', // Class to add to the elements when they are visible
+                offset: 300
+            });
+        });
+        jQuery(document).ready(function () {
+            jQuery('.post8').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
+                offset: 100
+            });
+        });
+        jQuery(document).ready(function () {
+            jQuery('.post9').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
+                offset: 100
+            });
+        });
+    </script>
+
+
+       <!-- javascript function -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollup').fadeIn();
+                } else {
+                    $('.scrollup').fadeOut();
+                }
+            });
+
+            $('.scrollup').click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+
+        });
+    </script>
+
+
+
+
+
+
+
+</head>
+
+<body topmargin="0" style="overflow-x:hidden;
+    width:100%;">
+    <a class="fpayout" href="payout.html"><i class="fab fa-btc"></i> Payouts</a>
+
+    <div id="goog-gt-tt" class="skiptranslate" dir="ltr">
+        <div style="padding: 8px;">
+            <div>
+                <div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png"
+                        width="20" height="20" alt="Google Translate"></div>
+            </div>
+        </div>
+        <div class="top" style="padding: 8px; float: left; width: 100%;">
+            <h1 class="title gray">Original text</h1>
+        </div>
+        <div class="middle" style="padding: 8px;">
+            <div class="original-text"></div>
+        </div>
+        <div class="bottom" style="padding: 8px;">
+            <div class="activity-links"><span class="activity-link">Contribute a better translation</span><span
+                    class="activity-link"></span></div>
+            <div class="started-activity-container">
+                <hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;">
+                <div class="activity-root"></div>
+            </div>
+        </div>
+        <div class="status-message" style="display: none;"></div>
+    </div>
+
+    <center>
+
+        <div class="menubar animated bounceIn">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active "><i class="fas fa-home"></i> Home</a>
+                <a href="presentation.html"><i class="fas fa-info-circle"></i> About us</a>
+                <a href="news.html"><i class="far fa-newspaper"></i> News</a>
+                <a href="faq.html"><i class="far fa-question-circle"></i> Faq</a>
+                <a href="rules.html"><i class="far fa-file-alt"></i> Rules</a>
+                <a href="contactus.html"><i class="fas fa-headset"></i> Support</a>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+
+
+        </div>
+
+        <div class="logoslider" style="background-image: url(images/slider.jpg)">
+            <div id="particles-js">
+
+            </div>
+
+            <script src='https://cldup.com/S6Ptkwu_qA.js'></script>
+
+            <script>
+                // ParticlesJS Config.
+                particlesJS("particles-js", {
+                    "particles": {
+                        "number": {
+                            "value": 80,
+                            "density": {
+                                "enable": true,
+                                "value_area": 700
+                            }
+                        },
+
+
+                        "color": {
+                            "value": "#7863fe"
+                        },
+
+                        "shape": {
+                            "type": "circle",
+                            "stroke": {
+                                "width": 5,
+                                "color": "#"
+                            },
+
+                            "polygon": {
+                                "nb_sides": 5
+                            }
+                        },
+
+
+                        "opacity": {
+                            "value": 0.5,
+                            "random": false,
+                            "anim": {
+                                "enable": false,
+                                "speed": 1,
+                                "opacity_min": 0.1,
+                                "sync": false
+                            }
+                        },
+
+
+                        "size": {
+                            "value": 3,
+                            "random": true,
+                            "anim": {
+                                "enable": false,
+                                "speed": 2,
+                                "size_min": 0.1,
+                                "sync": false
+                            }
+                        },
+
+
+                        "line_linked": {
+                            "enable": true,
+                            "distance": 160,
+                            "color": "#94BEDC",
+                            "opacity": 0.3,
+                            "width": 1
+                        },
+
+                        "move": {
+                            "enable": true,
+                            "speed": 3,
+                            "direction": "none",
+                            "random": false,
+                            "straight": false,
+                            "out_mode": "out",
+                            "bounce": false,
+                            "attract": {
+                                "enable": false,
+                                "rotateX": 600,
+                                "rotateY": 1200
+                            }
+                        }
+                    },
+
+
+
+                    "interactivity": {
+                        "detect_on": "canvas",
+                        "events": {
+                            "onhover": {
+                                "enable": true,
+                                "mode": "grab"
+                            },
+
+                            "onclick": {
+                                "enable": true,
+                                "mode": "push"
+                            },
+
+                            "resize": true
+                        },
+
+                        "modes": {
+                            "grab": {
+                                "distance": 140,
+                                "line_linked": {
+                                    "opacity": 1
+                                }
+                            },
+
+
+                            "bubble": {
+                                "distance": 400,
+                                "size": 100,
+                                "duration": 2,
+                                "opacity": 0.2,
+                                "speed": 3
+                            },
+
+                            "repulse": {
+                                "distance": 200,
+                                "duration": 0.4
+                            },
+
+                            "push": {
+                                "particles_nb": 4
+                            },
+
+                            "remove": {
+                                "particles_nb": 2
+                            }
+                        }
+                    },
+
+
+
+                    "retina_detect": true
+                });
+                //# sourceURL=pen.js
+            </script>
+
+            <div class="logomenu">
+                <div class="container">
+                    <div class="logolb animated zoomIn delay-1s ">
+                        <span class="logoicon"><a href="index.html"><img src="images/logo.png" alt="" /></a></span>
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="logorb">
+                        <a class="logobtn2 animated bounceInDown" href="login.html"><i class="fas fa-sign-in-alt"></i>
+                            Login</a> <a class="logobtn animated bounceInDown slow" href="createAccount.html"><i
+                                class="far fa-user"></i> Sign Up</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="logomenubar animated fadeIn delay-1s">
+                <div class="logomenubg ">
+
+                    <div class="logosb animated fadeIn slower">
+                        <span class="logodate">
+                            <div class="lang" style="margin-top:-10px;">
+                                <div id="google_translate_element" style=""></div>
+                                <script>
+                                    function googleTranslateElementInit() {
+                                        new google.translate.TranslateElement({
+                                            pageLanguage: 'en'
+                                        }, 'google_translate_element');
+                                    }
+                                </script>
+                                <script
+                                    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+                                </script>
+                            </div>
+                        </span>
+                    </div>
+
+                    <nav class="nav right">
+                        <ul>
+
+
+                            <span class="navhomeinv">
+                                <li class="current"><a href="index.html"><i class="fas fa-home"></i></a></li>
+                            </span>
+
+
+                            <li><a href="presentation.html">About us</a></li>
+                            <li><a href="faq.html">faq</a></li>
+                            <li><a href="deposit.html">Deposit</a></li>
+                            <li><a href="rules.html">Rules</a></li>
+                            <li><a href="rateus.html">Rate us</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="contactus.html">Contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+            <div class="container">
+
+
+                <div class="logoslidebox">
+
+                    <div class="logotit animated fadeInUp">
+
+                        <span class="logotitgrad ">Earn Guaranteed profit from the Global Forex Markets!
+                        </span></div>
+                    <div class="logosplit"></div>
+                    <span class="logotit2 animated fadeInDown">Invest in multiple financial instruments including Forex,
+                        Crypto, CFDs, and commodities including Crude oil and Gold!</span>
+                    <br><br><br>
+
+
+
+
+                    <br>
+                    <a class="logologin animated bounceInUp slow" href="createAccount.html"><i class="far fa-user"></i>
+                        Create
+                        Account</a> <a class="logoabout animated bounceInUp slower" href="presentation.html"><i
+                            class="fas fa-play"></i> <span style="color: #fff;">Presentation</span></a>
+                </div>
+            </div>
+
+
+            <div class="bannercurve"></div>
+        </div>
+
+        <script>
+            $(function () {
+                function getUrl(currency) {
+                    return "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,BCH,ETH,LTC,DASH,DOGE&tsyms=USD";
+                }
+
+                function updateRate() {
+                    $.get(getUrl("BTC"), function (data) {
+                        $("#btc_rate").text(data.BTC.USD);
+                        //$("#bitcoin_circle").text(data.USD);
+                    });
+                    $.get(getUrl("ETH"), function (data, status) {
+                        $("#eth_rate").text(data.ETH.USD);
+                    });
+                    $.get(getUrl("LTC"), function (data, status) {
+                        $("#ltc_rate").text(data.LTC.USD);
+                    });
+                    $.get(getUrl("BCH"), function (data, status) {
+                        $("#bch_rate").text(data.BCH.USD);
+                    });
+                    $.get(getUrl("DASH"), function (data, status) {
+                        $("#dash_rate").text(data.DASH.USD);
+                    });
+                    $.get(getUrl("DOGE"), function (data, status) {
+                        $("#doge_rate").text(data.DOGE.USD);
+                    });
+                    var total_deposit = '3.5906124999999998';
+                    /* total_deposit += parseFloat($("#eth_rate").text()) * parseFloat($("#ethereum_circle").text());
+                      total_deposit += parseFloat($("#ltc_rate").text()) * parseFloat($("#lite_circle").text());*/
+
+                    $("#deposits_circle").text(total_deposit);
+
+                }
+                updateRate();
+                setInterval(updateRate, 1000);
+
+            });
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="homepricebg">
+            <div class="homepricebox1">
+                <div class="logorateprice"><i class="fab fa-bitcoin"></i> $<span id="btc_rate"></span></div>
+            </div>
+            <div class="homepricebox2">
+                <div class="logorateprice"><i class="fab fa-ethereum"></i> $<span id="eth_rate"></span></div>
+            </div>
+
+        </div>
+
+        <div class="homewelbg" style="background-image:url(images/blockchain.jpg)">
+            <div class="container2">
+
+
+                <div class="block2 post9" align="left">
+                    <div class="hometxt2">THE COMPANY ESSENCE</div>
+                    <span class="hometxt1 w">ABOUT sterlingfxtrades</span><br>
+                    <div class="logosplit"></div>
+                    <br>
+                    <div class="hometxt2about w">
+                        Welcome to the website of sterlingfxtrades - a young but very promising company that boldly
+                        gains the trust of investors from around the world! Our friendly and customer-oriented team is
+                        ready to make you an amazing offer of quick moneymaking. If you are familiar with the concepts
+                        of Forex and stock trading, you will undoubtedly be able to appreciate our work and its results.
+                        <br>
+                        During the last decade, trading on Forex firmly has taken its place in our lives. We are engaged
+                        in business, the foundations of which we have thoroughly studied and clearly understand. Many
+                        years of experimentation experience, the use of new trading methods and instruments, the
+                        emergence of cryptocurrency as a new tool - all this left its mark. From the moment when we have
+                        decided to develop direction of trust management sterlingfxtrades has entered a new stage.
+                        We are always grateful to all our customers for the trust you have given us when you have opened
+                        an account on our website and make your first deposit.<br>
+                        We see our mission in unlocking the potential of our professional traders and to ensure equal
+                        access to high-quality investment services to professional and novice investors worldwide. We
+                        are always open to dialogue and ready to provide you the most complete information about
+                        sterlingfxtrades, the work of our trading team and Forex market in general. Your trust is
+                        the main value of the company, therefore, in any situation you can count on the loyalty,
+                        objectivity and attentive service from all our employees.<br>
+                        For our traders we never set the task to get the maximum profit through thick and thin. It is
+                        more important for us the safety of clients' funds. Given that for trade we mainly use the money
+                        of our investors, we understand the degree of responsibility that we bear.
+                    </div>
+                    <br><br>
+
+                    <a class="sbmt" target="_blank" href="presentation.html"><i class="fas fa-long-arrow-alt-right"></i>
+                        About us</a>
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+            <div class="container">
+                <br><br><br><br>
+
+                <div class="footerspline"></div>
+                <br><br>
+            </div>
+
+            <div class="container">
+                <div class="post">
+                    <div class="hometxt2">Why sterlingfxtrades</div>
+                    <div class="homeptit2 w">Our Feature</div>
+                    <div class="logosplit"></div>
+                </div>
+
+                <div class="homeptxt post slow w">We are happy to provide the best investment service in the field of
+                    cryptocurrency trading, Forex and comodities exchange with the maximum professionalism!</div>
+
+            </div>
+
+            <div class="homeitembg">
+                <div class="container post delay-1s">
+
+
+
+
+                    <div class="homeitembox">
+                        <div class="itemimg">
+                            <img src="images/fe2.png">
+                        </div>
+                        <div class="itemtit">ON</div>
+                        <div class="itemtxt">DDOS Protection</div>
+                    </div>
+
+                    <div class="homeitembox">
+                        <div class="itemimg">
+                            <img src="images/fe1.png">
+                        </div>
+                        <div class="itemtit">256-BIT</div>
+                        <div class="itemtxt">Security Encryption</div>
+                    </div>
+
+                    <div class="homeitembox">
+                        <div class="itemimg">
+                            <img src="images/fe3.png">
+                        </div>
+                        <div class="itemtit">Guaranteed</div>
+                        <div class="itemtxt">Profit</div>
+                    </div>
+
+                    <div class="homeitembox">
+                        <div class="itemimg">
+                            <img src="images/fe4.png">
+                        </div>
+                        <div class="itemtit">24/7</div>
+                        <div class="itemtxt">Support</div>
+                    </div>
+
+                    <br><br><br><br>
+
+
+                    <!-- YOUTUBE VIDEO -->
+
+                    <div class="ytvideo" data-video="93O2_kBkmq0" style="background-image:url(images/video.jpg)">
+
+                        <div class="seo">
+                            sterlingfxtrades Presentation Video
+                        </div>
+                        <span class="animated infinite flash slow playbutton"
+                            style="background-image:url(images/play_button-128.png)"></span>
+
+                    </div>
+
+                    <script>
+                        // VIDEO 2
+                        $('.ytvideo[data-video]').one('click', function () {
+
+                            var $this = $(this);
+                            var width = $this.attr("width");
+                            var height = $this.attr("height");
+
+                            $this.html('<iframe src="https://www.youtube.com/embed/NhFlqFVBmxc"></iframe>');
+                        });
+                    </script>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <script>
+            $(window).load(function () {
+                $(".trigger_popup_fricc").click(function () {
+                    $('.hover_bkgr_fricc').show();
+                });
+                $('.hover_bkgr_fricc').click(function () {
+                    $('.hover_bkgr_fricc').hide();
+                });
+                $('.popupCloseButton').click(function () {
+                    $('.hover_bkgr_fricc').hide();
+                });
+            });
+        </script>
+
+        <div class="hover_bkgr_fricc">
+            <span class="helper"></span>
+            <div>
+                <div class="popupCloseButton">X</div>
+                <div class="hoverpop">OUR CERTIFICATE</div>
+                <p><img class="hoverimg" src="images/certificate.png"></p>
+            </div>
+        </div>
+
+        <div class="homehow">
+            <div class="homehowicobg post delay-1s"></div>
+
+            <div class="container ">
+                <br><br><br><br>
+
+
+
+                <div class="post">
+                    <div class="hometxt2">EARN PROFIT</div>
+                    <div class="homeptit">WITH sterlingfxtrades</div>
+                    <div class="logosplit"></div>
+                </div>
+
+
+                <br><br><br><br>
+
+
+
+                <div class="homesol post">
+                    <img src="images/h1.png">
+                    <div class="homesoltit">Get income from a real business!</div>
+                    Our team is real and ready to offer safe and mutually beneficial cooperation to anyone who has set
+                    himself the goal of making money.<br><br><br>
+                    <a class="sbmt" href="createAccount.html">Join now</a>
+                </div>
+
+                <div class="homesol post delay-1s">
+                    <img src="images/h2.png">
+                    <div class="homesoltit">Diversify financial risks with us!</div>
+                    Due to the step-by-step strategy of work in the market, as well as in-depth analysis of financial
+                    trends, our company occupies a leading position.<br><br><br>
+                    <a class="sbmt" href="createAccount.html">Join now</a>
+                </div>
+
+                <div class="homesol post delay-2s">
+                    <img src="images/h3.png">
+                    <div class="homesoltit">Secure transactions</div>
+                    The team pays maximum attention to the safety of investor funds and carefully checks all withdrawal
+                    transactions, processing them in manual mode.
+                    <br><br><br>
+                    <a class="sbmt" href="createAccount.html">Join now</a>
+                </div>
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+        <div class="homeplanbg" style="background-image:url(images/bg-image1v2.jpg)">
+
+            <div class="container">
+                <div class="post">
+                    <div class="hometxt2w">Investments</div>
+                    <div class="homeptitplan">Our Plans</div>
+                    <div class="logosplit"></div>
+                </div>
+
+                <br><br>
+
+
+                <div class="homefebox post2">
+                    <div class="homeplanico"><img src="images/p1.png"></div>
+                    <br><span class="homefetit2">15%</span>
+                    <div class="homefetit">For 10 days</div>
+                    <div class="homefetxt"><span class="homefetxtl">MIN:</span><span class="homefetxtr">$50.00</span>
+                    </div>
+                    <div class="homefetxt"><span class="homefetxtl">MAX:</span><span class="homefetxtr">$1000</span>
+                    </div>
+                </div>
+
+                <div class="homefebox post2 delay-1s">
+                    <div class="homeplanico"><img src="images/p2.png"></div>
+                    <br><span class="homefetit2">30%</span>
+                    <div class="homefetit">For 10 days </div>
+                    <div class="homefetxt"><span class="homefetxtl">MIN:</span><span class="homefetxtr">$1001</span>
+                    </div>
+                    <div class="homefetxt"><span class="homefetxtl">MAX:</span><span class="homefetxtr">$10000</span>
+                    </div>
+                </div>
+
+                <div class="homefebox post2 delay-2s">
+                    <div class="homeplanico"><img src="images/p3.png"></div>
+                    <br><span class="homefetit2">45%</span>
+                    <div class="homefetit">For 10 days </div>
+                    <div class="homefetxt"><span class="homefetxtl">MIN:</span><span class="homefetxtr">$10,001</span>
+                    </div>
+                    <div class="homefetxt"><span class="homefetxtl">MAX:</span><span class="homefetxtr">$50,000</span>
+                    </div>
+                </div>
+
+                <div class="homefebox post2 delay-3s">
+                    <div class="homeplanico"><img src="images/p4.png"></div>
+                    <br><span class="homefetit2">65%</span>
+                    <div class="homefetit">For 10 days </div>
+                    <div class="homefetxt"><span class="homefetxtl">MIN:</span><span class="homefetxtr">$50,001</span>
+                    </div>
+                    <div class="homefetxt"><span class="homefetxtl">MAX:</span><span class="homefetxtr">$100,000</span>
+                    </div>
+                </div>
+
+                <div class="homefebox post2 delay-4s">
+                    <div class="homeplanico"><img src="images/p5.png"></div>
+                    <br><span class="homefetit2">85%</span>
+                    <div class="homefetit"> For 10 days </div>
+                    <div class="homefetxt"><span class="homefetxtl">MIN:</span><span class="homefetxtr">$100,001</span>
+                    </div>
+                    <div class="homefetxt"><span class="homefetxtl">MAX:</span><span class="homefetxtr">$200,000
+                        </span></div>
+                </div>
+                <div class="homefebox post2 delay-5s">
+                    <div class="homeplanico"><img src="images/p5.png"></div>
+                    <br><span class="homefetit2">100%</span>
+                    <div class="homefetit"> For 15 days </div>
+                    <div class="homefetxt"><span class="homefetxtl">MIN:</span><span class="homefetxtr">$200,001</span>
+                    </div>
+                    <div class="homefetxt"><span class="homefetxtl">MAX:</span><span class="homefetxtr">Unlimited
+                        </span></div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+        </div>
+
+        </div>
+
+
+        <div class="homecalsec" style="background-image:url(images/bg-image1v2.jpg),url(images/theblockchain.png);">
+            <div class="container">
+                <div class="post">
+                    <div class="hometxt2w">How much Profit do you earn</div>
+                    <div class="hometitcal">Calculate Your Profit</div>
+                </div>
+            </div>
+            <div class="container" align="center">
+
+
+
+                <div class="">
+
+                    <br><br>
+
+
+                    <div class="homecalbg post8">
+
+
+                        <script>
+                            function showValue1(newValue) {
+                                document.getElementById("amount").innerHTML = newValue;
+                            }
+
+                            function changeRangeValue(val) {
+                                document.getElementById("slider-range").value = isNaN(parseInt(val, 10)) ? 0 : parseInt(
+                                    val, 10);
+                                showValue1(val);
+                            }
+
+                            function changeInputValue(val) {
+                                document.getElementById("deposit").value = isNaN(parseInt(val, 10)) ? 0 : parseInt(val,
+                                    10);
+                                showValue1(val);
+                            }
+                        </script>
+
+
+
+                        <div class="container">
+                            <input id="deposit" type="text" name="fullname" placeholder="USD Amount"
+                                class="homecalintps" />
+
+                            <select name="percent" class="homecalintps" id="percent" onChange="calcthis(1);">
+                                <option value="perc1" selected="selected" class="hlist2">15% for 10 days</option>
+                                <option value="perc2" class="hlist2">30% for 10 days</option>
+                                <option value="perc3" class="hlist2">45% for 10 days</option>
+                                <option value="perc4" class="hlist2">65% for 10 days</option>
+                                <option value="perc5" class="hlist2">85% for 10 days</option>
+
+
+                            </select>
+
+
+                            <br>
+                            <div class="homecal"><span class="homecal3"><i class="fas fa-calculator"></i> Total
+                                    ROI:</span> <span class="homecal2">$<b id="inpvar2">0</b></span></div>
+
+                            <br><br>
+
+                            <input type="button" value="CALCULATE" onClick="calcthis(2);" class="sbmt">
+                            <br>
+                        </div>
+                        <br>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+        <div class="homebot">
+
+            <div class="homebotbg ">
+                <div class="container">
+
+
+                    <div class="block1b ltr">
+                        <div class="post9">
+                            <div class="hometxt2">Affiliate Program</div>
+                            <span class="hometxt1g">7% Referral Commission</span><br>
+                            <div class="logosplit"></div>
+                            <br>
+                            <div class="hometxt2about">
+                                Your reward will be 7% of each deposit created by your referrals. In order to earn in
+                                the affiliate program you do not even need to have your own deposit, start earning from
+                                scratch!
+                                <br><br>
+
+
+                            </div>
+                        </div>
+                        <br>
+                        <div class="">
+
+                            <div class="homerefbox1 post2 delay-1s">
+                                <div class="homerefboxico"><img src="images/ref1.png" alt="" /></div>
+                                Accessibility to everyone
+                                <div class="homerefboxtxt">Any registered user can earn in the affiliate program. </div>
+                            </div>
+
+                            <div class="homerefbox1 post2 delay-2s">
+                                <div class="homerefboxico"><img src="images/ref2.png" alt="" /></div>
+                                Fast Payouts
+                                <div class="homerefboxtxt">Your withdraw requests process every 12 business hours.
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <br><br>
+
+                        <a class="sbmt post2 delay-3s" href="createAccount.html">Start</a>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="homeitembg2" style="background-image:url(images/bg-image1v2.jpg)">
+            <div class="homeitembg2img">
+                <div class="container post delay-1s">
+                    <div class="homeitembox2 heart">
+                        <div class="itemimg">
+                            <img src="images/item1.png">
+                        </div>
+                        <div class="itemtit"> 2198</div>
+                        <div class="itemtxt">Running Days</div>
+                    </div>
+
+                    <div class="homeitembox2 heart">
+                        <div class="itemimg">
+                            <img src="images/item2.png">
+                        </div>
+                        <div class="itemtit">555</div>
+                        <div class="itemtxt">Visitors Online</div>
+                    </div>
+
+                    <div class="homeitembox2 heart">
+                        <div class="itemimg">
+                            <img src="images/update.png">
+                        </div>
+                        <div class="itemtit">Jul 16, 2021</div>
+                        <div class="itemtxt">Last Payout date</div>
+                    </div>
+
+                    <div class="homeitembox2 heart">
+                        <div class="itemimg">
+                            <img src="images/item4.png">
+                        </div>
+                        <div class="itemtit">$ 9552144.7</div>
+                        <div class="itemtxt">Total Deposited</div>
+                    </div>
+
+                    <div class="homeitembox2 heart">
+                        <div class="itemimg">
+                            <img src="images/item5.png">
+                        </div>
+                        <div class="itemtit">$ 22537938.47</div>
+                        <div class="itemtxt">Total Withdraw</div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="bankbg" style="background-image:url(images/bankbg.jpg)">
+            <div class="homehowgrd">
+
+
+
+                <br>
+
+
+                <div class="container2">
+                    <div class="block1 ltr">
+                        <img src="images/bitforexuk.jpg">
+                    </div>
+
+                    <div class="block2 justify">
+                        <div class="post">
+                            <div class="hometxt2">UK Corporation</div>
+                            <span class="hometxt1">Company Certificate</span>
+                        </div>
+                        <div class="logosplit"></div>
+                        <br>
+
+
+                        <br>
+                        <div class="hometxt2about post9">
+                            sterlingfxtrades is a fully registered and licensed company in United Kingdom.
+                            sterlingfxtrades is powered by the latest and most secure form of SSL data encryption to
+                            keep all your data and information safe and secure.
+                            <br><br>
+
+
+                        </div>
+                        <br>
+
+
+
+
+
+                    </div>
+
+                    <br><br><br><br>
+                    <div class="container">
+                        <div class="footerspline"></div>
+                    </div>
+                    <br><br>
+                    <div class="container">
+                        <div class="post">
+                            <div class="hometxt2"></div>
+                            <div class="homeptit2"></div>
+                        </div>
+
+
+                        <br><br>
+                        <div class="post9"><img class="imgblock fpay" src="images/1.png" title="PM" /><img
+                                class="imgblock fpay" src="images/2.png" title="PAYEER" /><img class="imgblock fpay"
+                                src="images/3.png" title="BTC" /><img class="imgblock fpay" src="images/4.png"
+                                title="LTC" /></div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <center>
+
+
+
+                <div class="fcontent" style="background-image:url(images/howbgico.png),url(images/bg-image1v2.jpg);">
+
+
+                    <br>
+
+                    <div class="container" align="center">
+
+
+                        <div class="footerblock">
+                            <a href="index.html"><img class="imgblock" src="images/logo.png"></a>
+                            <br>
+                            <div class="fbltxt">sterlingfxtrades represents a low-risk, high-return investment for
+                                all comers - novice investors and professional players in the financial market.</div>
+
+                        </div>
+
+                        <div class="footerblock">
+                            <div class="ftit">Navigation</div>
+                            <br>
+                            <a class="flink" href="index.html"><i class="fas fa-caret-right"></i> home</a>
+                            <a class="flink" href="presentation.html"><i class="fas fa-caret-right"></i> About us</a>
+
+                            <a class="flink" href="login.html"><i class="fas fa-caret-right"></i> Login</a>
+                            <a class="flink" href="createAccount.html"><i class="fas fa-caret-right"></i> Sign up</a>
+                            <a class="flink" href="rateus.html"><i class="fas fa-caret-right"></i> Rate us</a>
+                            <a class="flink" href="rules.html"><i class="fas fa-caret-right"></i> Rules</a>
+                            <a class="flink" href="faq.html"><i class="fas fa-caret-right"></i> FAQ</a>
+                            <a class="flink" href="contactus.html"><i class="fas fa-caret-right"></i> Support</a>
+                        </div>
+
+                        <div class="footerblock">
+                            <div class="ftit">OUR Company</div>
+                            <br>
+                          
+                            <div class="fbltxt"><i class="far fa-envelope"></i> Support@sterlingfxtrades</div>
+                            <div class="fbltxt"><i class="fas fa-map-marker-alt"></i> 26 Morris Road, London, England,
+                                E14 6NX</div>
+                            <br>
+
+                        </div>
+ 
+                         <div>
+                            <p  style="text-align: center; font-size: 1rem; font-weight: bold;" >Contact us on our social media platform</p>
+                            <i class="fab fa-twitter fa-3x" style="padding: 2%; text-align: center;"></i>
+                            
+                            <i class="fab fa-instagram fa-3x" style="padding: 2%; text-align: center;"></i>
+                             
+                            <i class="fab fa-telegram-plane fa-3x" style="padding: 2%; text-align: center;"></i>
+                         </div>
+
+
+                        <br><br>
+
+
+                    </div>
+
+
+
+
+                    <div class="footercp">
+                        <div class="container" align="center"><span class="ftxt">&#169; sterlingfxtrades 2020-2021.
+                                All rights reserved. </span></div>
+                    </div>
+
+                </div>
+
+
+                <a href="#" class="scrollup"><i class="far fa-arrow-alt-circle-up"></i></a>
+                <a name="footer"></a>
+
+
+            </center>
+            
+    <!-- javascript -->
+    <script type="text/javascript" src="js/cal2.js"></script>
+    <script type="text/javascript" src="js/calc.js"></script>
+    <script type="text/javascript" src="js/tinybox.js"></script>
+    <script type="text/javascript" src="js/viewportchecker.js"></script>
+    <script src="//code.tidio.co/gbkqnenktbwqzs7wrltm7msbxqurksfn.js" async></script>
+</body>
+
+</html>
+
+
+
